@@ -28,7 +28,7 @@ const Home2: React.FC = () => {
           setIsRunning(false);
         }
         clearInterval(interval);
-      }, 1);
+      }, 10);
     }
   }, [isRunning, minutes, seconds, milliseconds]);
 
