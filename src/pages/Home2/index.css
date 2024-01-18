@@ -1,0 +1,147 @@
+.background {
+  background: rgb(44, 159, 214);
+  background: linear-gradient(
+    45deg,
+    rgba(44, 159, 214, 0.5578606442577031) 3%,
+    rgba(28, 132, 195, 0.7567401960784313) 40%,
+    rgba(17, 24, 208, 0.5466561624649859) 64%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+.main {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+.Box-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.box {
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  flex: 1;
+  max-width: 25%;
+  border-radius: 10px;
+}
+
+.H2 {
+  font-size: 2rem;
+  color: white;
+}
+.Text {
+  font-size: 25px;
+}
+.Number {
+  font-size: 100px;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type="number"] {
+  color: #181717;
+  background-color: transparent;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 15px;
+}
+.submit {
+  opacity: 1;
+  transition-duration: 1s;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.submitDisabled {
+  opacity: 0;
+  transition-duration: 1s;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: rgb(67, 63, 63);
+}
+
+.icons {
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 35px;
+}
+.InputAndSubmit {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+/* For Tablet View */
+@media screen and (min-width: 601px) and (max-width: 1180px) {
+  .box {
+    padding: 10px;
+    max-width: 25%;
+  }
+  .H2 {
+    font-size: 1.5rem;
+  }
+  .Text {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .Number {
+    font-size: 70px;
+  }
+}
+
+/* For Mobile View */
+@media only screen and (max-width: 600px) {
+  .box {
+    padding: 10px;
+  }
+  .H2 {
+    font-size: 1.5rem;
+  }
+  .Text {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .Number {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}

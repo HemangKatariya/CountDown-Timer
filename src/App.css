@@ -1,0 +1,87 @@
+/* .home {
+  height: 100vh;
+  background: rgb(44, 159, 214);
+  background: linear-gradient(
+    45deg,
+    rgba(44, 159, 214, 0.5578606442577031) 3%,
+    rgba(28, 132, 195, 0.7567401960784313) 40%,
+    rgba(17, 24, 208, 0.5466561624649859) 64%
+  );
+  display: grid;
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0rem 5rem;
+  padding: 10px;
+  grid-template-rows: 200px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  margin: 5px;
+}
+.H2 {
+  font-size: 2rem;
+  color: white;
+}
+.Text {
+  font-size: 30px;
+}
+.Number {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+:focus {
+  outline: none;
+}
+
+.bord {
+  width: 270.33%;
+  margin: 40px 3%;
+  position: relative;
+}
+input[type="number"] {
+  color: #181717;
+  background-color: transparent;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px ;
+}
+::placeholder {
+  color: black ;
+  opacity: 1;
+}
+.submit {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black ;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    margin: 0rem 0rem;
+    grid-template-rows: 130px;
+  }
+  .H2 {
+    font-size: 1rem;
+  }
+  .Text {
+    font-size: 15px;
+    margin-top: px;
+  }
+  .Number {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+} */
